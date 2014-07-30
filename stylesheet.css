@@ -1,4 +1,67 @@
 /* A CSS3 External Stylesheet created by @probably_parker for www.aurifexinnovation.com */
 
 /* MAIN SETTINGS */
-body{background-color:#000033; }
+html{
+  background-color: #000033;
+  width: 100%;
+  min-width: 320px;
+  cursor: default;
+  }
+/* CURSOR SETTINGS */
+a:active{
+  color: #0000FF;
+  }
+
+a:hover{
+  color: #0000FF;
+  text-decoration: underline;
+  }
+
+a:visited{
+  color: #990099;
+  }
+
+/* FOR HORIZONTAL INLINE LISTS */
+li.inline{
+  display: inline;
+  }
+
+/* THE NAV BAR BANNER AT THE TOP */
+.navbar{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  min-width: 800px;
+  height: 50px;
+  background-color: #DAA520;
+  }
+
+.navbutton{
+  font-family: "Verdana", Geneva, sans-serif;
+  background-color: #B22222;
+  height: 40px;
+  width: 75px;
+  font-size: 18pt;
+  padding: 4px;
+  border: 1px solid #B22222;
+  }
+
+.navbutton:hover{
+
+  animation: navboarder 3s infinite;
+  -webkit-animation: navboarder 3s infinite;
+  }
+
+/* ANIMATED BOARDER ON BUTTONS */
+@keyframes navborder {40
+  50% {border:5px solid #8E1B1B}
+  }
+
+/* SAFARI AND CHROME ANIMATION*/
+@-webkit-keyframes navborder {
+  50% {border:5px solid #8E1B1B}
+}
+
+.navbutton:active{
+  background-color: #8E1B1B;
+  }
