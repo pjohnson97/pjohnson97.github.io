@@ -2,4 +2,4 @@ This is my currently in development website. Feel free to use it as a (horrible)
 
 This page has been in development for a while but the most recent developments have been in progress since July 28, 2014 and are still being pumped out regularly.
 
-contact pjohnson2012@hotmail.com or @probably_parker on twitter for more info.
+contact pkjohnson2012@hotmail.com or @probably_parker on twitter for more info.

@@ -21,6 +21,24 @@ a:visited{
   color: #990099;
   }
 
+body{
+  font-size: 100%;
+  font-family: "Verdana", Geneva, sans-serif;
+  }
+
+h1{
+  font-size: 2.5em;
+  }
+
+h2{
+  font-size: 2em;
+  }
+
+h3{
+  font-size: 1.5em;
+  color:
+  }
+
 /* FOR HORIZONTAL INLINE LISTS */
 li.inline{
   display: inline;
@@ -32,22 +50,22 @@ li.inline{
   top: 50px;
   width: 100%;
   min-width: 800px;
-  height: 50px;
+  height: 75px;
   background-color: #DAA520;
   }
 
 .navbutton{
-  font-family: "Verdana", Geneva, sans-serif;
+  position: relative;
+  top: 13px;
+  text-align: center;
   background-color: #B22222;
   height: 40px;
   width: 75px;
-  font-size: 18pt;
   padding: 4px;
   border: 1px solid #B22222;
   }
 
 .navbutton:hover{
-
   animation: navboarder 3s infinite;
   -webkit-animation: navboarder 3s infinite;
   }
@@ -60,8 +78,9 @@ li.inline{
 /* SAFARI AND CHROME ANIMATION*/
 @-webkit-keyframes navborder {
   50% {border:5px solid #8E1B1B}
-}
+  }
 
 .navbutton:active{
   background-color: #8E1B1B;
+  border-color: #8E1B1B;
   }
