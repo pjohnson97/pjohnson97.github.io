@@ -55,7 +55,7 @@ li.inline{
   }
 
 .navbutton{
-  position: relative;
+  position: absolute;
   top: 13px;
   text-align: center;
   background-color: #B22222;
