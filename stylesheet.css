@@ -18,12 +18,15 @@ h1{
 
 h2{
   font-size: 2em;
-  }
+}
 
 h3{
   font-size: 1.5em;
-  color:
-  }
+}
+p1, p2, p3{
+  font-size: 1em;
+}
+
 /* CURSOR SETTINGS */
 a:active{
   color: #0000FF;
