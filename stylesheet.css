@@ -3,24 +3,9 @@
 /* MAIN SETTINGS */
 html{
   background-color: #000033;
-  width: 100%;
-  min-width: 320px;
+  width: auto;
   cursor: default;
   }
-/* CURSOR SETTINGS */
-a:active{
-  color: #0000FF;
-  }
-
-a:hover{
-  color: #0000FF;
-  text-decoration: underline;
-  }
-
-a:visited{
-  color: #990099;
-  }
-
 body{
   font-size: 100%;
   font-family: "Verdana", Geneva, sans-serif;
@@ -38,49 +23,43 @@ h3{
   font-size: 1.5em;
   color:
   }
-
-/* FOR HORIZONTAL INLINE LISTS */
-li.inline{
-  display: inline;
+/* CURSOR SETTINGS */
+a:active{
+  color: #0000FF;
   }
 
-/* THE NAV BAR BANNER AT THE TOP */
-.navbar{
-  position: relative;
-  top: 50px;
+a:hover{
+  color: #0000FF;
+  text-decoration: underline;
+  }
+
+a:visited{
+  color: #990099;
+  }
+/*Id's*/
+#navbar{
+  position: fixed;
+  background-color: White;
   width: 100%;
-  min-width: 800px;
-  height: 75px;
-  background-color: #DAA520;
-  }
+  height: 100px;
+  -o-transition:box-shadow .5s;
+  -ms-transition:box-shadow .5s;
+  -moz-transition:box-shadow .5s;
+  -webkit-transition:box-shadow .5s;
+  transition:box-shadow .5s;
+  z-index: 10;
+}
+#navbar:hover{
+  box-shadow: 5px 5px 3px 0px #DDDDDD;
+  -o-transition:text-shadow .5s;
+  -ms-transition:text-shadow .5s;
+  -moz-transition:text-shadow .5s;
+  -webkit-transition:text-shadow .5s;
+  transition:text-shadow .5s;
+}
+/*Classes*/
+div.button{
+  width: 100px;
+  height: inherit;
 
-.navbutton{
-  position: absolute;
-  top: 13px;
-  text-align: center;
-  background-color: #B22222;
-  height: 40px;
-  width: 75px;
-  padding: 4px;
-  border: 1px solid #B22222;
-  }
-
-.navbutton:hover{
-  animation: navboarder 3s infinite;
-  -webkit-animation: navboarder 3s infinite;
-  }
-
-/* ANIMATED BOARDER ON BUTTONS */
-@keyframes navborder {40
-  50% {border:5px solid #8E1B1B}
-  }
-
-/* SAFARI AND CHROME ANIMATION*/
-@-webkit-keyframes navborder {
-  50% {border:5px solid #8E1B1B}
-  }
-
-.navbutton:active{
-  background-color: #8E1B1B;
-  border-color: #8E1B1B;
-  }
+}
