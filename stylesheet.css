@@ -2,7 +2,7 @@
 
 /* MAIN SETTINGS */
 html{
-  background-color: #000000;
+  background-color: white;
   width: 100%;
   height: 100%;
   cursor: default;
@@ -39,28 +39,29 @@ a:visited{
   }
 /*Id's*/
 #navbar{
-  position: fixed;
-  background-color: White;
-  width: inherit;
-  height: 100px;
-  -o-transition:box-shadow .5s;
-  -ms-transition:box-shadow .5s;
-  -moz-transition:box-shadow .5s;
-  -webkit-transition:box-shadow .5s;
-  transition:box-shadow .5s;
-  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -ms-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777
+  z-index: 1;
 }
-#navbar:hover{
-  box-shadow: 5px 5px 3px 0px #DDDDDD;
-  -o-transition:text-shadow .5s;
-  -ms-transition:text-shadow .5s;
-  -moz-transition:text-shadow .5s;
-  -webkit-transition:text-shadow .5s;
-  transition:text-shadow .5s;
-}
+
 /*Classes*/
 div.button{
-  width: 100px;
-  height: inherit;
-
+  position: relative;
+  background-color: inherit;
+  font-size: 1em;
+  text-align: center;
+  display: inline-block;
+  margin:auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 100%;
 }
