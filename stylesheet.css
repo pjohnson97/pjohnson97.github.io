@@ -40,6 +40,8 @@ a:visited{
 /*Id's*/
 #navbar{
   position: absolute;
+  height: auto;
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
