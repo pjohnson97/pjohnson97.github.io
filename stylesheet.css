@@ -57,6 +57,9 @@ a:visited{
   z-index: 1;
 }
 #titletext{
+  position: relative;
+  height 100%;
+  width: auto;
   display: block;
   float: left;
   vertical-align: middle;
@@ -70,7 +73,7 @@ div.button{
   background-color: inherit;
   font-size: 1em;
   text-align: center;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   margin:auto;
   padding-left: 10px;
