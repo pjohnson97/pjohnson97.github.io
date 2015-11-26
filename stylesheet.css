@@ -1,4 +1,4 @@
-/* A CSS3 External Stylesheet created by @probably_parker for parkerjohnson.info */
+/* A CSS3 External Stylesheet created by Parker Johnson @probably_parker for parkerjohnson.info */
 
 /* MAIN SETTINGS */
 html{
@@ -56,6 +56,14 @@ a:visited{
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777
   z-index: 1;
+}
+#linkmenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 #titletext{
   position: relative;
