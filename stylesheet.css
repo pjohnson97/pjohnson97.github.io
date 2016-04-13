@@ -60,7 +60,8 @@ a:visited{
 #linkmenu{
   list-style-type: none;
   margin: 0;
-  padding-top: 0;
+  padding-top: 10px;
+  padding-right: 
   overflow: hidden;
   white-space: nowrap;
   vertical-align: middle;
